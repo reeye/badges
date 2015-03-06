@@ -1,0 +1,63 @@
+a.badge {
+	/* Text and textbox */
+	display:table-cell;
+
+	width: 50px;
+	height: 20px;
+
+	font-size: 10px;
+	text-align: right;
+	vertical-align: middle;
+	
+	color: #333333;
+	font-family: Calibri, Arial, sans-serif;
+	line-height: 10px;
+	text-decoration: none;
+	
+	/* Logo and button effect*/
+	padding-right: 85px; /* Add space for logo */
+	padding-left: 2px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	
+
+	background-image:url(../logos/logo.png);
+	background-size:  auto 20px;
+	background-repeat: no-repeat;
+	background-position: right; 
+	background-color: #FFF5FF;
+	
+	border: 1px solid 		#123456;
+	box-shadow: 0 0 0 2px 	#FE9999;
+	border-radius: 4px;
+}
+
+
+#email {
+	background-image:url(../logos/email.png);
+	background-color: #F5F5FF;
+
+	border: 1px solid 		#606264;
+	box-shadow: 0 0 0 2px 	#D6CCEE;
+}
+
+
+#linkedin {
+	background-image:url(../logos/linkedin.png);
+	background-color: #F5FFFF;
+
+	border: 1px solid 		#606264;
+	box-shadow: 0 0 0 2px 	#9BDAF3;
+}
+
+
+
+#github {
+	background-image:url(../logos/github.png);
+	background-color: #FFFFF5;
+	
+    	border: 1px solid 		#606264;
+    	box-shadow: 0 0 0 2px 	#FFC09F;
+	position: relative;
+    	left: 20px;
+}
